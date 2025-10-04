@@ -1,11 +1,8 @@
 # テトリス風ブロック落下ゲーム
-# https://note.com/ayase_tukihi/n/nad84241d6e08
-# https://note.com/ayase_tukihi/n/n0e31d366dd71
 #
 #【操作方法】
 #　　方向： 左キー「←」，右キー「→」，下キー「↓」，
 #　　回転：「スペースキー」
-#
 
 import tkinter as tk
 from queue import Queue  # キュー：押されたキーを管理
@@ -173,3 +170,4 @@ if __name__ == '__main__':
 	root.after(TIMER_WAIT, main_proc, root, canvas)
 	# tkinterがウインドウを制御するためのメインループ。
 	root.mainloop()
+
